@@ -1,0 +1,150 @@
+.footer {
+    margin-top: 89px;
+}
+
+.footer__flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__text__flex {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 39px;
+}
+
+.footer__text__flex1 {
+    max-width: 190px;
+    width: 100%;
+}
+
+.header2__texts1 {
+    margin-top: 45px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    justify-content: space-between;
+}
+
+.flex1 {
+    max-width: 620px;
+    width: 100%;
+}
+
+.footer__text {
+    margin: 0;
+    padding: 0;
+    max-width: 260px;
+    width: 100%;
+    color: #2B2A28;
+    font-family: "Gilroy";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 1.04px;
+}
+
+.footer__text1 {
+    color: #2B2A28;
+    font-family: "Gilroy";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 22px;
+}
+
+.footer__end__text {
+    color: #2B2A28;
+    text-align: center;
+    font-family: "Gilroy";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 22px;
+}
+
+.f {
+    margin-top: 51px;
+}
+
+.f2 {
+    margin-top: 43px;
+}
+
+.connect1__tel1 {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 7px;
+    color: #2B2A28;
+    font-family: "Gilroy";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+}
+
+@media (max-width:1156px) {
+    .footer__flex {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer {
+        justify-content: center;
+    }
+
+    .flex1 {
+        margin-left: 250px;
+    }
+
+    .header2__texts {
+        justify-content: center;
+    }
+
+    .header2__texts1 {
+        flex-direction: column;
+    }
+}
+
+@media (max-width:1000px) {
+    .flex1 {
+        margin-left: 180px;
+    }
+}
+@media (max-width:900px) {
+    .flex1 {
+        margin-left: 120px;
+    }
+}
+
+@media (max-width:760px) {
+    .flex1 {
+        margin-left: 50px;
+    }
+}
+
+@media (max-width:700px) {
+    .flex1 {
+        margin: 0;
+    }
+}
+
+@media (max-width:410px) {
+    .footer__text__flex {
+        flex-direction: column;
+        margin-left: 80px;
+    }
+}
+
+@media (max-width:300px) {
+    .footer__text__flex {
+        margin-left: 30px;
+    }
+}
+
+@media (max-width:250px) {
+    .footer__text__flex {
+        margin-left: 0;
+    }
+}
