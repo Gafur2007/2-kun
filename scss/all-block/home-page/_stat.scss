@@ -1,0 +1,48 @@
+.stat {
+    margin-top: 145px;
+}
+
+.stat__text__flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.stat__heading {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 40px;
+    color: #2B2A28;
+    font-family: "Gilroy";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.stat__title {
+    max-width: 365px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    padding-top: 27px;
+    color: var(--1, #2B2A28);
+    font-family: "Gilroy";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    padding-bottom: 15px;
+}
+
+.stat__text {
+    margin: 0;
+    padding: 0;
+    max-width: 365px;
+    width: 100%;
+    color: var(--1, #2B2A28);
+    font-family: "Gilroy";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px;
+}

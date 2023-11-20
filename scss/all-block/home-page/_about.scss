@@ -1,0 +1,192 @@
+.about__heading {
+    color: #2B2A28;
+    margin: 0;
+    padding: 0;
+    font-family: "Gilroy";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 58px;
+    padding-bottom: 26px;
+}
+
+.about__flex {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.about__dacha {
+    width: 370px;
+    border-radius: 0px 40px 0px 0px;
+    background: #FFF;
+    box-shadow: 0px 0px 30px 0px rgba(43, 42, 40, 0.08);
+}
+
+.about__img {
+    padding: 5px;
+    object-fit: contain;
+}
+
+.about__ittle {
+    margin: 0;
+    padding: 0;
+    padding-top: 36px;
+    padding-bottom: 9px;
+    padding-left: 50px;
+    color: #2B2A28;
+    font-family: "Gilroy";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.about__text {
+    margin: 0;
+    padding: 0;
+    padding-left: 50px;
+    padding-bottom: 23px;
+    color: #2B2A28;
+    font-family: "Gilroy";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+}
+
+.about__link {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    color: #CB8734;
+    font-family: "Gilroy";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px;
+}
+
+.about__dacha2 {
+    margin-top: 29px;
+    display: flex;
+    align-items: center;
+    border-radius: 0px 40px 0px 0px;
+    background: #FFF;
+    box-shadow: 0px 0px 30px 0px rgba(43, 42, 40, 0.08);
+    max-width: 770px;
+    width: 100%;
+}
+
+.about__h3 {
+    margin: 0;
+    padding: 0;
+    margin-top: 290px;
+    margin-bottom: 58px;
+    color: #2B2A28;
+    font-family: "Gilroy";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.about__end {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.about__div {
+    margin-bottom: 58px;
+    max-width: 570px;
+    width: 100%;
+    border-radius: 8px;
+    background: #FFF;
+}
+
+.about__h4 {
+    margin: 0;
+    padding: 0;
+    padding-top: 42px;
+    padding-left: 46px;
+    color: #2B2A28;
+    font-family: "Gilroy";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.about__div__img {
+    margin-top: -50px;
+}
+
+.and {
+    margin-top: -70px;
+    margin-right: -22px;
+}
+
+.about__div__flex {
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+
+.about__end__text {
+    margin: 0;
+    padding: 0;
+    padding-left: 46px;
+    padding-bottom: 50px;
+    color: #2B2A28;
+    font-family: "Gilroy";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+@media (max-width:960px) {
+    .about__end {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
+@media (max-width:800px) {
+    .about {
+        text-align: center;
+    }
+
+    .about__dacha2 {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media (max-width:730px) {
+    .about__flex {
+        flex-direction: column;
+    }
+}
+
+@media (max-width:550px) {
+    .about__div__flex {
+        flex-direction: column;
+    }
+
+    .about__h4 {
+        margin-bottom: 60px;
+    }
+}
+
+.company__img {
+    padding-bottom: 40px;
+}
+
+@media (max-width:402px) {
+    .company__img2 {
+        padding-top: 10px;
+    }
+}
